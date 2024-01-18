@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white; /* Tekstkleur toegevoegd voor duidelijkheid */
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a {
+    float: left;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.fotosamen {
+    max-width: 100%; /* Aangepaste breedte voor de afbeeldingcontainer */
+    margin: auto;
+}
+
+.fotosamen img {
+    width: 20%; /* Volledige breedte van de container */
+    height: auto;
+    display: block;
+}
+
+.aboutustekst {
+    max-width: 50%; /* Aangepaste breedte voor de tekstcontainer */
+    text-align: left;
+    margin-top: 20px; /* Ruimte toegevoegd tussen de afbeelding en de tekst */
+    color: orange; /* Tekstkleur in oranje */
+}
+
+.aboutustekst h1 {
+    font-size: 16px; /* Aangepaste lettergrootte voor de tekst */
+    line-height: 1.5; /* Line height aangepast voor leesbaarheid */
+}
+
+
+.drive-text {
+    text-align: center;
+    color: white;
+    margin-top: 20px; /* Pas deze waarde aan naar wens */
+    font-size: 20px; /* Pas deze waarde aan naar wens */
+}
